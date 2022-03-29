@@ -163,7 +163,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #000000;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "cute","Source Sans Pro", Helvetica, sans-serif;
 		font-size: 1rem;
 		font-weight: 300;
 		letter-spacing: 0.0375em;
@@ -3157,6 +3157,7 @@ input, select, textarea {
 
 /* Feature Icons */
 
+
 	ul.feature-icons {
 		display: flex;
 		flex-wrap: wrap;
@@ -3260,12 +3261,17 @@ input, select, textarea {
 				}
 
 				#wrapper section > header h1 + p {
-					font-family: "Raleway", Helvetica, sans-serif;
+					font-family: "cute","Raleway", Helvetica, sans-serif;
 					font-size: 0.8rem;
 					letter-spacing: 0.175em;
 					line-height: 2.5;
 					text-transform: uppercase;
 				}
+
+				@font-face {
+					font-family: 'cute';
+					src: url('/font/cute.ttf')format("truetype"),
+				  }
 
 				#wrapper section > header ul.actions {
 					justify-content: flex-end;
@@ -3879,4 +3885,9 @@ input, select, textarea {
 			padding: 4rem;
 		}
 
+	}
+
+	.text{
+		/* font-family: "cute"; */
+		margin: 9px;
 	}
